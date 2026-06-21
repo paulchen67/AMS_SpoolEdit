@@ -207,12 +207,15 @@ The display supports NFC tags in combination with a PN532 reader.
 When an NFC tag is read, timestamps are automatically compared.
 
 NFC is newer
+
 The data is imported into the display.
 
 Display is newer
+
 The NFC tag is automatically updated.
 
 Both are identical
+
 No action is taken.
 
 This makes it easy to synchronize filament spools between multiple printers or even different users.
