@@ -3,46 +3,58 @@ AMS SpoolEdit - Intelligentes Filamentmanagement für das Bambu AMS mit NFC Funk
 
 Das AMS SpoolEdit ist ein eigenständiges ESP32-S3 Touch-Display zur komfortablen Verwaltung von Filamentspulen für das Bambu Lab AMS.
 
-Es ermöglicht eine einfache Verwaltung des Restgewichts, die Bearbeitung von Spulendaten, die Synchronisation zwischen mehreren Geräten und sogar das Speichern der Spulendaten direkt auf NFC-Tags.
+Das Projekt ermöglicht die Verwaltung des Restgewichts, die Bearbeitung von Spulendaten, die Synchronisation zwischen mehreren Geräten und die Speicherung von Spulendaten direkt auf NFC-Tags.
 
-Keine Cloud, keine Abonnements und keine zusätzliche Software erforderlich.
+Das System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste noch zusätzliche Software.
 
-Funktionen
+ 
+Features
 ✅ Verwaltung von bis zu 32 Filamentspulen
 
 ✅ 4- oder 8-AMS-Modus
 
-✅ Verwaltung des verbleibenden Filamentgewichts
+✅ Restgewichtsverwaltung
 
-✅ Speicherung von Material, Typ, Farbe, Hersteller und Artikelnummer
+✅ Material-, Typ-, Farb-, Hersteller- und Artikelinformationen
 
 ✅ Bearbeitung der Spulendaten direkt am Display
 
 ✅ Moderne Weboberfläche für Smartphone, Tablet und PC
 
-✅ Import und Export aller Spulendaten als JSON-Datei
+✅ JSON Import / Export
+
+✅ WLAN-Konfiguration direkt über die Weboberfläche
 
 ✅ MQTT-Unterstützung
 
-✅ HTTP-Fallback (funktioniert auch ohne MQTT)
+✅ HTTP-Fallback (funktioniert vollständig ohne MQTT)
 
 ✅ Unterstützung für den optionalen AMS Dial
 
-✅ NFC-Tag-Synchronisation
+✅ NFC-Synchronisation
 
 ✅ Automatische Konfliktlösung über Zeitstempel
 
 ✅ Deutsch- und Englisch-Unterstützung
 
-✅ Umschaltbare Displayrotation (USB-Anschluss oben oder unten)
+✅ Umschaltbare Displayrotation
 
-✅ AP-Setup-Modus zur einfachen WLAN-Konfiguration
+✅ AP-Setup-Modus
+
+✅ Factory Reset
 
  
-NFC-Synchronisation
-Das Display kann komplette Spulendaten direkt auf einem NFC-Tag speichern.
-
-Gespeicherte Daten:
+Hardware
+Unterstützte Hardware
+Hauptgerät
+ESP32-S3 Touch Display (240x320)
+Optional
+PN532 NFC Reader (I²C)
+AMS Dial
+MQTT Server
+ 
+Spulenverwaltung
+Jede Spule speichert:
 
 Spulennummer
 Restgewicht
@@ -53,57 +65,163 @@ Hersteller
 Artikelnummer
 Leer-Status
 Zeitstempel der letzten Änderung
-Beim erneuten Einlegen einer Spule vergleicht das Display automatisch die Zeitstempel:
-
-NFC-Daten sind neuer → Daten vom Tag werden importiert.
-Display-Daten sind neuer → Der NFC-Tag wird automatisch aktualisiert.
-Beide Datenstände sind identisch → Es erfolgt keine Änderung.
-Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar zwischen verschiedenen Nutzern ausgetauscht werden, ohne dass Informationen verloren gehen.
+Die Daten werden dauerhaft im LittleFS gespeichert.
 
  
-Weboberfläche
+Display Funktionen
+Filamentverbrauch erfassen
+Über das Touchdisplay kann verbrauchtes Filament direkt von der jeweiligen Spule abgezogen werden.
+
+Spulen tauschen
+Spulen können direkt am Display miteinander getauscht werden.
+
+Alle Daten werden automatisch übernommen.
+
+Spulen bearbeiten
+Folgende Informationen können geändert werden:
+
+Material
+Typ
+Farbe
+Hersteller
+Artikelnummer
+Leer-Status
+ 
+Web Interface
 Die integrierte Weboberfläche ermöglicht:
 
 Anzeige aller Spulen
-Bearbeitung der Spulendaten
+Bearbeiten der Spulendaten
 Ändern des Restgewichts
-Tauschen von Spulen
-Import und Export von Daten
-Konfiguration der WLAN-Einstellungen
+Spulen tauschen
+JSON Import / Export
+WLAN-Konfiguration
 Die Weboberfläche funktioniert auf:
 
 Smartphone
 Tablet
 Desktop-PC
  
-AMS Dial Unterstützung
+WLAN Einrichtung
+Beim ersten Start startet das Display automatisch im AP-Modus.
+
+Zugangsdaten
+SSID:
+
+AMS-Setup
+Passwort:
+
+12345678
+Aufruf im Browser:
+
+http://192.168.4.1
+Nach dem Speichern der WLAN-Daten startet das Gerät automatisch neu.
+
+ 
+MQTT (optional)
+MQTT ist vollständig optional.
+
+Ist kein MQTT-Server vorhanden, arbeitet das Display automatisch im HTTP-Modus.
+
+Unterstützt werden beispielsweise:
+
+Home Assistant
+Node-RED
+Eigene MQTT-Systeme
+ 
+HTTP Fallback
+Alle Funktionen des Displays können vollständig ohne MQTT verwendet werden.
+
+Die Kommunikation erfolgt dann automatisch per HTTP.
+
+ 
+AMS Dial (optional)
 Der optionale AMS Dial ermöglicht:
 
 Auswahl einer Spule
-Abziehen des verbrauchten Filaments
+Änderung des Restgewichts
 Tauschen von Spulen
-Die Kommunikation erfolgt über MQTT oder automatisch per HTTP, wenn kein MQTT-Server vorhanden ist.
+Die Kommunikation erfolgt automatisch über:
+
+MQTT
+oder HTTP
+ 
+NFC Unterstützung
+Das Display unterstützt NFC-Tags in Verbindung mit einem PN532 Reader.
+
+Gespeicherte Daten
+Spulennummer
+Restgewicht
+Material
+Typ
+Farbe
+Hersteller
+Artikelnummer
+Leer-Status
+Zeitstempel
+ 
+NFC Synchronisation
+Beim Lesen eines NFC-Tags werden die Zeitstempel verglichen.
+
+NFC ist neuer
+Die Daten werden in das Display importiert.
+
+Display ist neuer
+Der NFC-Tag wird automatisch aktualisiert.
+
+Beide identisch
+Es erfolgt keine Änderung.
+
+Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar verschiedenen Nutzern synchronisiert werden.
 
  
-Einfache Einrichtung
-Beim ersten Start startet das Display automatisch im AP-Setup-Modus.
+Sprache
+Unterstützte Sprachen:
 
-Mit folgendem WLAN verbinden:
-
-SSID: AMS-Setup
-
-Passwort: 12345678
-
-Anschließend im Browser öffnen:
-
-http://192.168.4.1
-
-und die eigenen WLAN-Daten eingeben.
+Deutsch
+Englisch
+Die Spracheinstellung wird dauerhaft gespeichert.
 
  
-Hardware
-ESP32-S3 Touch Display
-Optionaler PN532 NFC Reader (I²C)
-Optionaler AMS Dial
+Display Rotation
+Unterstützte Einbaulagen:
+
+USB-Anschluss oben
+USB-Anschluss unten
+Display und Touchscreen werden automatisch angepasst.
+
+Die Einstellung wird dauerhaft gespeichert.
+
  
-Dieses Projekt wurde entwickelt, um das Filamentmanagement einfach, zuverlässig und unabhängig vom Drucker selbst zu machen.
+Import / Export
+Alle Spulendaten können als JSON-Datei exportiert werden.
+
+Die Datei kann verwendet werden:
+
+als Backup
+zum Übertragen auf ein anderes Display
+nach einem Factory Reset
+ 
+Factory Reset
+Über die Weboberfläche können gelöscht werden:
+
+WLAN-Daten
+Display-IP
+MQTT-IP
+Nach dem Neustart startet das Gerät automatisch wieder im AP-Modus.
+
+ 
+Projektstatus
+Das Projekt befindet sich in aktiver Entwicklung.
+
+Neue Funktionen und Verbesserungsvorschläge sind jederzeit willkommen.
+
+ 
+Support
+Bei Fragen, Problemen oder Verbesserungsvorschlägen:
+
+GitHub Issues verwenden
+Pull Requests sind willkommen
+Feedback ist ausdrücklich erwünscht
+ 
+❤️ Viel Spaß beim Verwalten eurer Filamentspulen!
