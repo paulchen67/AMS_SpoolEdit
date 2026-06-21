@@ -60,8 +60,10 @@ Unterstützte Hardware
 Hauptgerät
 ESP32-S3 Touch Display (240x320)
 
-PN532 NFC Reader (I²C)
+PN532 NFC Reader(I²C)
+
 AMS Dial
+
 MQTT Server
 
 ---
@@ -119,46 +121,53 @@ Die integrierte Weboberfläche ermöglicht:
 Die Weboberfläche funktioniert auf:
 
 Smartphone
+
 Tablet
+
 Desktop-PC
- 
+
+---
+
 # WLAN Einrichtung
 
 Beim ersten Start startet das Display automatisch im AP-Modus.
 
 Zugangsdaten
-SSID:
 
-AMS-Setup
-Passwort:
+SSID: AMS-Setup
 
-12345678
-Aufruf im Browser:
+Passwort:12345678
 
-http://192.168.4.1
+Aufruf im Browser: http://192.168.4.1
+
 Nach dem Speichern der WLAN-Daten startet das Gerät automatisch neu.
 
 ---
  
-MQTT (optional)
+# MQTT (optional)
+
 MQTT ist vollständig optional.
 
 Ist kein MQTT-Server vorhanden, arbeitet das Display automatisch im HTTP-Modus.
 
 Unterstützt werden beispielsweise:
 
-Home Assistant
-Node-RED
-Eigene MQTT-Systeme
+- Home Assistant
+- Node-RED
+- Eigene MQTT-Systeme
+
+--
  
-HTTP Fallback
+# HTTP Fallback
+
 Alle Funktionen des Displays können vollständig ohne MQTT verwendet werden.
 
 Die Kommunikation erfolgt dann automatisch per HTTP.
 
 ---
  
-AMS Dial (optional)
+# AMS Dial (optional)
+
 Der optionale AMS Dial ermöglicht:
 
 - Auswahl einer Spule
@@ -167,26 +176,30 @@ Der optionale AMS Dial ermöglicht:
 - 
 Die Kommunikation erfolgt automatisch über:
 
-MQTT
-oder HTTP
+MQTT oder HTTP
 
 ---
 
 # NFC Unterstützung
+
 Das Display unterstützt NFC-Tags in Verbindung mit einem PN532 Reader.
 
 Gespeicherte Daten
-Spulennummer
-Restgewicht
-Material
-Typ
-Farbe
-Hersteller
-Artikelnummer
-Leer-Status
-Zeitstempel
+
+- Spulennummer
+- Restgewicht
+- Material
+- Typ
+- Farbe
+- Hersteller
+- Artikelnummer
+- Leer-Status
+- Zeitstempel
+
+---
  
-NFC Synchronisation
+# NFC Synchronisation
+
 Beim Lesen eines NFC-Tags werden die Zeitstempel verglichen.
 
 NFC ist neuer
@@ -200,50 +213,64 @@ Es erfolgt keine Änderung.
 
 Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar verschiedenen Nutzern synchronisiert werden.
 
+---
  
-Sprache
+# Sprache
+
 Unterstützte Sprachen:
 
-Deutsch
-Englisch
+- Deutsch
+- Englisch
+
 Die Spracheinstellung wird dauerhaft gespeichert.
 
  
-Display Rotation
+# Display Rotation
+
 Unterstützte Einbaulagen:
 
-USB-Anschluss oben
-USB-Anschluss unten
+- USB-Anschluss oben
+- USB-Anschluss unten
+- 
 Display und Touchscreen werden automatisch angepasst.
 
 Die Einstellung wird dauerhaft gespeichert.
 
+---
  
-Import / Export
+# Import / Export
+
 Alle Spulendaten können als JSON-Datei exportiert werden.
 
 Die Datei kann verwendet werden:
 
-als Backup
-zum Übertragen auf ein anderes Display
-nach einem Factory Reset
+- als Backup
+- zum Übertragen auf ein anderes Display
+- nach einem Factory Reset
+
+---
  
-Factory Reset
+# Factory Reset
+
 Über die Weboberfläche können gelöscht werden:
 
-WLAN-Daten
-Display-IP
-MQTT-IP
+- WLAN-Daten
+- Display-IP
+- MQTT-IP
+
 Nach dem Neustart startet das Gerät automatisch wieder im AP-Modus.
 
+---
  
-Projektstatus
+# Projektstatus
+
 Das Projekt befindet sich in aktiver Entwicklung.
 
 Neue Funktionen und Verbesserungsvorschläge sind jederzeit willkommen.
 
+
  
-Support
+# Support
 Bei Fragen, Problemen oder Verbesserungsvorschlägen:
 
 GitHub Issues verwenden
