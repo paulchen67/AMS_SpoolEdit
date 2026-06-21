@@ -156,7 +156,7 @@ Unterstützt werden beispielsweise:
 - Node-RED
 - Eigene MQTT-Systeme
 
---
+---
  
 # HTTP Fallback
 
@@ -224,6 +224,7 @@ Unterstützte Sprachen:
 
 Die Spracheinstellung wird dauerhaft gespeichert.
 
+---
  
 # Display Rotation
 
@@ -268,13 +269,17 @@ Das Projekt befindet sich in aktiver Entwicklung.
 
 Neue Funktionen und Verbesserungsvorschläge sind jederzeit willkommen.
 
-
+---
  
 # Support
 Bei Fragen, Problemen oder Verbesserungsvorschlägen:
 
 GitHub Issues verwenden
+
 Pull Requests sind willkommen
+
 Feedback ist ausdrücklich erwünscht
+
+---
  
 ❤️ Viel Spaß beim Verwalten eurer Filamentspulen!
