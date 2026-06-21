@@ -63,6 +63,7 @@ AMS Dial
 MQTT Server
  
 Spulenverwaltung
+
 Jede Spule speichert:
 
 Spulennummer
