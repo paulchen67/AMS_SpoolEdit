@@ -15,6 +15,7 @@ Das System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste
 
  
 Features
+
 ✅ Verwaltung von bis zu 32 Filamentspulen
 
 ✅ 4- oder 8-AMS-Modus
@@ -51,10 +52,12 @@ Features
 
  
 Hardware
+
 Unterstützte Hardware
+
 Hauptgerät
 ESP32-S3 Touch Display (240x320)
-Optional
+
 PN532 NFC Reader (I²C)
 AMS Dial
 MQTT Server
