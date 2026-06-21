@@ -283,7 +283,9 @@ New features and suggestions are always welcome.
 For questions, issues or feature requests:
 
 Use GitHub Issues
+
 Pull Requests are welcome
+
 Feedback is highly appreciated
 
 ---
