@@ -1,7 +1,8 @@
 # AMS_SpoolEdit
 AMS SpoolEdit - Intelligentes Filamentmanagement für das Bambu AMS mit NFC Funktionalität.
 
-Das AMS SpoolEdit ist ein eigenständiges ESP32-S3 Touch-Display zur komfortablen Verwaltung von Filamentspulen für das Bambu Lab AMS.
+Das AMS SpoolEdit ist ein eigenständiges ESP32-S3 Touch-Display zur komfortablen Verwaltung von Filamentspulen für das Bambu Lab AMS. Es ist ein Weiterentwicklung meines AMS Spool Display.
+https://github.com/paulchen67/AMS_Spool_Display
 
 Das Projekt ermöglicht die Verwaltung des Restgewichts, die Bearbeitung von Spulendaten, die Synchronisation zwischen mehreren Geräten und die Speicherung von Spulendaten direkt auf NFC-Tags.
 
