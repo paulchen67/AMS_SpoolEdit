@@ -13,8 +13,9 @@ Das Projekt ermöglicht die Verwaltung des Restgewichts, die Bearbeitung von Spu
 
 Das System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste noch zusätzliche Software.
 
+---
  
-Features
+# Features
 
 ✅ Verwaltung von bis zu 32 Filamentspulen
 
@@ -50,8 +51,9 @@ Features
 
 ✅ Factory Reset
 
- 
-Hardware
+---
+
+# Hardware
 
 Unterstützte Hardware
 
@@ -61,24 +63,29 @@ ESP32-S3 Touch Display (240x320)
 PN532 NFC Reader (I²C)
 AMS Dial
 MQTT Server
+
+---
  
-Spulenverwaltung
+# Spulenverwaltung
 
 Jede Spule speichert:
 
-Spulennummer
-Restgewicht
-Material
-Typ
-Farbe
-Hersteller
-Artikelnummer
-Leer-Status
-Zeitstempel der letzten Änderung
+- Spulennummer
+- Restgewicht
+- Material
+- Typ
+- Farbe
+- Hersteller
+- Artikelnummer
+- Leer-Status
+- Zeitstempel der letzten Änderung
+
 Die Daten werden dauerhaft im LittleFS gespeichert.
 
+---
  
-Display Funktionen
+# Display Funktionen
+
 Filamentverbrauch erfassen
 Über das Touchdisplay kann verbrauchtes Filament direkt von der jeweiligen Spule abgezogen werden.
 
@@ -90,29 +97,33 @@ Alle Daten werden automatisch übernommen.
 Spulen bearbeiten
 Folgende Informationen können geändert werden:
 
-Material
-Typ
-Farbe
-Hersteller
-Artikelnummer
-Leer-Status
+- Material
+- Typ
+- Farbe
+- Hersteller
+- Artikelnummer
+- Leer-Status
+
+---
  
-Web Interface
+# Web Interface
 Die integrierte Weboberfläche ermöglicht:
 
-Anzeige aller Spulen
-Bearbeiten der Spulendaten
-Ändern des Restgewichts
-Spulen tauschen
-JSON Import / Export
-WLAN-Konfiguration
+- Anzeige aller Spulen
+- Bearbeiten der Spulendaten
+- Ändern des Restgewichts
+- Spulen tauschen
+- JSON Import / Export
+- WLAN-Konfiguration
+
 Die Weboberfläche funktioniert auf:
 
 Smartphone
 Tablet
 Desktop-PC
  
-WLAN Einrichtung
+# WLAN Einrichtung
+
 Beim ersten Start startet das Display automatisch im AP-Modus.
 
 Zugangsdaten
@@ -127,6 +138,7 @@ Aufruf im Browser:
 http://192.168.4.1
 Nach dem Speichern der WLAN-Daten startet das Gerät automatisch neu.
 
+---
  
 MQTT (optional)
 MQTT ist vollständig optional.
@@ -144,19 +156,23 @@ Alle Funktionen des Displays können vollständig ohne MQTT verwendet werden.
 
 Die Kommunikation erfolgt dann automatisch per HTTP.
 
+---
  
 AMS Dial (optional)
 Der optionale AMS Dial ermöglicht:
 
-Auswahl einer Spule
-Änderung des Restgewichts
-Tauschen von Spulen
+- Auswahl einer Spule
+- Änderung des Restgewichts
+- Tauschen von Spulen
+- 
 Die Kommunikation erfolgt automatisch über:
 
 MQTT
 oder HTTP
- 
-NFC Unterstützung
+
+---
+
+# NFC Unterstützung
 Das Display unterstützt NFC-Tags in Verbindung mit einem PN532 Reader.
 
 Gespeicherte Daten
