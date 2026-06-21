@@ -1,3 +1,7 @@
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/bee71751-cd44-4ed7-8430-dc3fd0e3cff6" />
+
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/e4b4e4cd-57ad-4bbb-9629-a607b5462a06" />
+
 # AMS_SpoolEdit
 AMS SpoolEdit - Intelligentes Filamentmanagement für das Bambu AMS mit NFC Funktionalität.
 
