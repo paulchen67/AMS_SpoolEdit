@@ -171,9 +171,9 @@ Communication is then automatically handled via HTTP.
 
 ---
  
-# AMS Dial (Optional)
+# AMS Dial
 
-The optional AMS Dial allows:
+The AMS Dial allows:
 
 - Selecting a spool
 - Changing remaining filament weight
@@ -182,6 +182,8 @@ The optional AMS Dial allows:
 Communication automatically works via:
 
 MQTT or HTTP
+
+https://github.com/paulchen67/AMS_Spool_Display/releases/tag/V1.3Dial
 
 ---
  
