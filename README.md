@@ -10,6 +10,9 @@ Das AMS SpoolEdit ist ein eigenständiges ESP32-S3 Touch-Display zur komfortable
 https://github.com/paulchen67/AMS_Spool_Display
 
 Das Projekt ermöglicht die Verwaltung des Restgewichts, die Bearbeitung von Spulendaten, die Synchronisation zwischen mehreren Geräten und die Speicherung von Spulendaten direkt auf NFC-Tags.
+Das AMS SpoolEdit benötigt einen M5 Stack Dial. Die Firmware für den Dial findet Ihr hier.
+
+https://github.com/paulchen67/AMS_Spool_Display/releases/tag/V1.3Dial
 
 Das System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste noch zusätzliche Software.
 
@@ -166,9 +169,9 @@ Die Kommunikation erfolgt dann automatisch per HTTP.
 
 ---
  
-# AMS Dial (optional)
+# AMS Dial
 
-Der optionale AMS Dial ermöglicht:
+Der AMS Dial ermöglicht:
 
 - Auswahl einer Spule
 - Änderung des Restgewichts
@@ -177,6 +180,8 @@ Der optionale AMS Dial ermöglicht:
 Die Kommunikation erfolgt automatisch über:
 
 MQTT oder HTTP
+
+https://github.com/paulchen67/AMS_Spool_Display/releases/tag/V1.3Dial
 
 ---
 
