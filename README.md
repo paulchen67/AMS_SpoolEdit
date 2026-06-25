@@ -289,3 +289,9 @@ Feedback ist ausdrücklich erwünscht
 ---
  
 ❤️ Viel Spaß beim Verwalten eurer Filamentspulen!
+
+---
+
+English Version here
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
