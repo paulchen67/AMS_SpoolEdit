@@ -145,6 +145,7 @@ SSID: AMS-Setup
 Passwort:12345678
 
 Aufruf im Browser: http://192.168.4.1
+
 (PC oder Laptop benutzen, am Smartphone kann evtl. das Speichern nicht funktionieren)
 
 Nach dem Speichern der WLAN-Daten startet das Gerät automatisch neu.
