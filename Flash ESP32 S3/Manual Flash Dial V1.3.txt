@@ -1,1 +1,88 @@
-test
+# 🔧 Firmware Flash Instructions
+
+## Flashing the ESP32-S3
+
+### 1. Connect the ESP32-S3 via USB
+
+Connect the ESP32-S3 to your PC using a USB cable.
+
+---
+
+### 2. Open the Web Flasher
+
+Open the following website in your browser:
+
+https://espressif.github.io/esptool-js/
+
+---
+
+### 3. Connect
+
+* Click **Connect**
+* Select the correct COM port
+* Confirm the connection
+
+---
+
+## 4. Add the Files
+
+Add the following files with their corresponding flash addresses:
+
+| Flash Address | File                                       |
+| ------------- | ------------------------------------------ |
+| `0x0`         | `AMS_Display_Dial_V1.3.ino.bootloader.bin` |
+| `0x8000`      | `AMS_Display_Dial_V1.3.ino.partitions.bin` |
+| `0x10000`     | `AMS_Display_Dial_V1.3.ino.bin`            |
+
+---
+
+## 5. Flash Settings
+
+Use the following settings:
+
+| Setting         | Value  |
+| --------------- | ------ |
+| Flash Mode      | `Keep` |
+| Flash Frequency | `Keep` |
+| Flash Size      | `Keep` |
+
+---
+
+## 6. Optional: Erase the Entire Flash
+
+Recommended for a clean installation:
+
+* Click **Erase Flash**
+* Wait until the process is complete
+
+---
+
+## 7. Flash the Firmware
+
+* Click **Program**
+* Wait until the flashing process has finished completely
+
+The ESP32-S3 will automatically reboot afterward.
+
+---
+
+# 📶 First Start in AP Mode (Access Point)
+
+If no Wi-Fi credentials are stored or no known Wi-Fi network can be found, the device will automatically start in AP mode.
+
+## Access Information
+
+| Setting    | Value            |
+| ---------- | ---------------- |
+| IP Address | `192.168.4.1`    |
+| SSID       | `AMS_Dial-Setup` |
+| Password   | `12345678`       |
+
+---
+
+# ✅ Note
+
+During the first startup, establishing the connection may take a few seconds.
+
+After entering and saving your Wi-Fi credentials, it may take **1–2 minutes** before the confirmation message appears indicating that the settings have been successfully applied.
+
