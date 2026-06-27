@@ -1,23 +1,19 @@
 Download Links:
-https://github.com/paulchen67/AMS_SpoolEdit/releases/download/V2.3/AMS_Display_V2.3.ino.bin
+https://github.com/paulchen67/AMS_Spool_Display/releases/download/V1.3Dial/AMS_Display_Dial_V1.3.ino.bin
 
-https://github.com/paulchen67/AMS_SpoolEdit/releases/download/V2.3/AMS_Display_V2.3.ino.bootloader.bin
+https://github.com/paulchen67/AMS_Spool_Display/releases/download/V1.3Dial/AMS_Display_Dial_V1.3.ino.bootloader.bin
 
-https://github.com/paulchen67/AMS_SpoolEdit/releases/download/V2.3/AMS_Display_V2.3.ino.partitions.bin
-
-https://github.com/paulchen67/AMS_SpoolEdit/releases/download/V2.3/AMS_Display_V2.3.littlefs.bin
+https://github.com/paulchen67/AMS_Spool_Display/releases/download/V1.3Dial/AMS_Display_Dial_V1.3.ino.partitions.bin
 
  
 
 Firmware Download:
 
-AMS_Display_V2.3.ino.bin
+AMS_Display_Dial_V1.3.ino.bin
 
-AMS_Display_V2.3.ino.bootloader.bin
+AMS_Display_Dial_V1.3.ino.bootloader.bin
 
-AMS_Display_V2.3.ino.partitions.bin
-
-AMS_Display_V2.3.littlefs.bin
+AMS_Display_Dial_V1.3.ino.partitions.bin
 
 
 
@@ -51,12 +47,11 @@ https://espressif.github.io/esptool-js/
 
 Folgende Dateien mit den jeweiligen Flash-Adressen eintragen:
 
-| Flash-Adresse | Datei                           	|
-| ------------- | ------------------------------------- |
-| `0x0`         | `AMS_Display_V2.3.ino.bootloader.bin`	|
-| `0x8000`      | `AMS_Display_V2.3.ino.partitions.bin`	|
-| `0x10000`     | `AMS_Display_V2.3.ino.bin`      	|
-| `0x670000`    | `AMS_Display_V2.3.littlefs.bin` 	|
+| Flash-Adresse | Datei                           		|
+| ------------- | --------------------------------------------- |
+| `0x0`         | `AMS_Display_Dial_V1.3.ino.bootloader.bin`	|
+| `0x8000`      | `AMS_Display_Dial_V1.3.ino.partitions.bin`	|
+| `0x10000`     | `AMS_Display_Dial_V1.3.ino.bin`      		|
 
 ---
 
@@ -96,11 +91,11 @@ Wenn keine WLAN-Daten gespeichert sind oder kein bekanntes WLAN gefunden wird, s
 
 ## Zugangsdaten
 
-| Einstellung | Wert          |
-| ----------- | ------------- |
-| IP-Adresse  | `192.168.4.1` |
-| SSID        | `AMS-Setup`   |
-| Passwort    | `12345678`    |
+| Einstellung | Wert		   |
+| ----------- | ------------------ |
+| IP-Adresse  | `192.168.4.1`      |
+| SSID        | `AMS_Dial-Setup`   |
+| Passwort    | `12345678`         |
 
 ---
 
