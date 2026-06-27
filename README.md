@@ -17,7 +17,7 @@ Die Firmware für den Dial findet Ihr hier.
 
 https://github.com/paulchen67/AMS_Spool_Display/releases/tag/V1.3Dial
 
-Das System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste noch zusätzliche Software.
+Das AMS SpoolEdit System arbeitet vollständig eigenständig und benötigt weder Cloud-Dienste noch zusätzliche Software.
 
 ---
  
