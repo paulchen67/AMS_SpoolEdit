@@ -16,7 +16,7 @@ You can find the firmware here.
 
 https://github.com/paulchen67/AMS_Spool_Display/releases/tag/V1.3Dial
 
-The system is completely standalone and does not require any cloud services or additional software.
+The AMS SpoolEdit system is completely standalone and does not require any cloud services or additional software.
 
 ---
 
