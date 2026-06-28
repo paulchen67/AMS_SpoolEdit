@@ -53,7 +53,7 @@ The following components are required:
    https://amzn.eu/d/09LT9mn4
 
 
-### Heat-Set Threaded Inserts
+### 🛠️ Heat-Set Threaded Inserts
 
 For melting into the enclosure:
 
