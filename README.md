@@ -294,6 +294,9 @@ Feedback ist ausdrücklich erwünscht
 
 ---
 
+<img width="4812" height="4281" alt="Bild alle Teile ohne 3D Druck" src="https://github.com/user-attachments/assets/47c860bf-ad79-4df1-a7e4-be4ee9cef14c" />
+
+
 ### Stückliste
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Parts%20List/St%C3%BCckliste.md
