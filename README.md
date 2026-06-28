@@ -294,6 +294,11 @@ Feedback ist ausdrücklich erwünscht
 
 ---
 
+### Stückliste
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Parts%20List/St%C3%BCckliste.md
+
+---
 English Version here
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
