@@ -7,9 +7,11 @@ Folgende Komponenten werden benötigt:
 
    Board Spezifikation muss beachtet werden damit das Programm problemlos läuft, ich habe diesen benutzt
 
-   (https://www.amazon.de/FREENOVE-Capacitive-Supporting-XiaoZhiAI-Microcontroller/dp/B0FSQF6FKN?th=1)
+   https://www.amazon.de/FREENOVE-Capacitive-Supporting-XiaoZhiAI-Microcontroller/dp/B0FSQF6FKN?th=1
 
-   oder (https://de.aliexpress.com/item/1005009876628479.html)
+   oder
+
+   https://de.aliexpress.com/item/1005009876628479.html
 
    Wichtig !!! Das CYD funktioniert nicht
 
@@ -21,7 +23,7 @@ Folgende Komponenten werden benötigt:
 
  - NFC Reader Waveshare PN532 NFC HAT
    
-   (https://amzn.eu/d/00uf6aqM)
+   https://amzn.eu/d/00uf6aqM
    
    (Wichtig !!! Bitte unbedingt nur diesen verwenden. Ich habe einige getestet und dieser hat sich als zuverlässig herausgestellt.
    Auch das Original Elechouse NFC Module V3 hat nicht zufriedenstellend funktioniert. Einige Aliexpress Elechouse Cloone haben
@@ -30,7 +32,7 @@ Folgende Komponenten werden benötigt:
 
  - USB C Einbaubuchse (1 Stück)
    
-   (https://amzn.eu/d/0a2qntre)
+   https://amzn.eu/d/0a2qntre
 
 
  - M2 x 6 Linsenkopfschraube oder Inbusschraube und Mutter (je 2 Stück, USB Port verschrauben)
@@ -47,19 +49,19 @@ Folgende Komponenten werden benötigt:
 
  - Saugnapf
 
-   (https://amzn.eu/d/0bF8AD8d)
+   https://amzn.eu/d/0bF8AD8d
 
 
  - Pinleiste 4 Fach
 
-   (https://amzn.eu/d/09LT9mn4)
+   https://amzn.eu/d/09LT9mn4
 
 
  ### Gewindehülsen zum Einschmelzen ins Gehäuse
 
  - M2 x 4 x 3.2 (4 Stück)
 
-   (https://amzn.eu/d/0b8zG9aN)
+   https://amzn.eu/d/0b8zG9aN
 
 
  - M3 x 4 x 4.2 (4 Stück)
