@@ -33,7 +33,7 @@ Folgende Komponenten werden benötigt:
 
  - USB C Einbaubuchse (1 Stück)
    
-   (https://www.amazon.de/chenyang-Anschluss-L%C3%B6tadapter-Schraubloch-Schalttafelmontage/dp/B0D5B96FBR)
+   (https://amzn.eu/d/0a2qntre)
 
 
 
