@@ -55,7 +55,7 @@ Folgende Komponenten werden benötigt:
    (https://amzn.eu/d/09LT9mn4)
 
 
- Gewindehülsen zum Einschmelzen ins Gehäuse
+ ### Gewindehülsen zum Einschmelzen ins Gehäuse
 
  - M2 x 4 x 3.2 (4 Stück)
 
