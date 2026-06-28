@@ -298,6 +298,9 @@ Feedback is highly appreciated
 
 ---
 
+<img width="4812" height="4281" alt="Bild alle Teile ohne 3D Druck" src="https://github.com/user-attachments/assets/8a8dc987-b45e-4327-8d1f-f03a3930d9e0" />
+
+
 ### Parts List
 
 https://github.com/paulchen67/AMS_SpoolEdit/tree/main/Parts%20List
