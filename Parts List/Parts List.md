@@ -43,12 +43,12 @@ The following components are required:
  - M2 × 8 hex socket screws (4 pieces, For assembling the enclosure)
 
 
- - Suction cup
+ - Suction cup (4 piece)
 
    https://amzn.eu/d/0bF8AD8d
 
 
- - 4-pin header strip
+ - 4-pin header strip (1 piece)
 
    https://amzn.eu/d/09LT9mn4
 
