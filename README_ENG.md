@@ -297,5 +297,11 @@ Pull Requests are welcome
 Feedback is highly appreciated
 
 ---
+
+### Parts List
+
+https://github.com/paulchen67/AMS_SpoolEdit/tree/main/Parts%20List
+
+---
  
 ❤️ Enjoy managing your filament spools!
