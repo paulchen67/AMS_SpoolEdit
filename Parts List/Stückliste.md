@@ -14,11 +14,9 @@ Folgende Komponenten werden benötigt:
    Wichtig !!! Das CYD funktioniert nicht
 
 
-
  - M5 Stack Dial V1.1 (1 Stück)
    
    https://shop.m5stack.com/products/m5stack-dial-v1-1?srsltid=AfmBOorVdA7JWBmnLc-y1Z5nxQ-gy96z45HtuLObhLn81BahLKdarn4e
-
 
 
  - NFC Reader Waveshare PN532 NFC HAT
@@ -30,29 +28,21 @@ Folgende Komponenten werden benötigt:
    grundsätzlich nicht funktioniert, andere nur mit Mängel)
 
 
-
  - USB C Einbaubuchse (1 Stück)
    
    (https://amzn.eu/d/0a2qntre)
 
 
-
- - M2 x 6 Linsenkopfschraube und Mutter (je 2 Stück, USB verschrauben)
-
+ - M2 x 6 Linsenkopfschraube oder Inbusschraube und Mutter (je 2 Stück, USB Port verschrauben)
 
 
  - M3 x 4 Linsenkopfschraube (4 Stück, Display verschrauben)
 
-   (https://www.amazon.de/OPIOL-QUALITY-Linsenkopfschrauben-Innensechsrund-Flachkopfschrauben/dp/B07FF2BJB2?th=1)
 
-
-
- - M3 x 6 Linsenkopfschraube mit Bund (4 Stück, Bodenplatte verschrauben)
-
+ - M3 x 6 Linsenkopfschraube mit Flansch (4 Stück, Bodenplatte verschrauben)
 
 
  - M2 x 8 Inbusschraube (4 Stück, Gehäuse verschrauben)
-
 
 
  - Saugnapf
@@ -60,11 +50,9 @@ Folgende Komponenten werden benötigt:
    (https://amzn.eu/d/0bF8AD8d)
 
 
-
  - Pinleiste 4 Fach
 
    (https://amzn.eu/d/09LT9mn4)
-
 
 
  Gewindehülsen zum Einschmelzen ins Gehäuse
@@ -74,4 +62,4 @@ Folgende Komponenten werden benötigt:
    (https://amzn.eu/d/0b8zG9aN)
 
 
- - M3 x 3 x 4 (4 Stück)
+ - M3 x 4 x 4.2 (4 Stück)
