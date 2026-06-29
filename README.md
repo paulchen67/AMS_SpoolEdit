@@ -297,30 +297,30 @@ Feedback ist ausdrücklich erwünscht
 <img width="4812" height="4281" alt="Bild alle Teile ohne 3D Druck" src="https://github.com/user-attachments/assets/47c860bf-ad79-4df1-a7e4-be4ee9cef14c" />
 
 
-### Stückliste
+## Stückliste
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Parts%20List/St%C3%BCckliste.md
 
 ---
-### Montageanleitung
+## Montageanleitung
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Montageanleitung.pdf
 
 ---
-### Bedienungsanleitung
+## Bedienungsanleitung
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Bedienungsanleitung.pdf
 
 ---
-### Flash Anleitung
+## Flash Anleitung
 
-## Display
+### Display
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Flash%20ESP32%20S3/Anleitung%20Display%20Flashen%20V2.3.md
 
-## Dial
+### Dial
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Flash%20ESP32%20S3/Anleitung%20Dial%20Flashen%20V1.3.md
 
 ---
-English Version here
+### English Version here
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
