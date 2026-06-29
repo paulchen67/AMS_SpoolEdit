@@ -302,6 +302,11 @@ Feedback ist ausdrücklich erwünscht
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Parts%20List/St%C3%BCckliste.md
 
 ---
+### Montageanleitung
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Montageanleitung.pdf
+
+---
 English Version here
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
