@@ -306,5 +306,11 @@ Feedback is highly appreciated
 https://github.com/paulchen67/AMS_SpoolEdit/tree/main/Parts%20List
 
 ---
+
+### Assembly Guide
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Assembly%20Guide.pdf
+
+---
  
 ❤️ Enjoy managing your filament spools!
