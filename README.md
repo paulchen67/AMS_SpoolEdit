@@ -312,6 +312,11 @@ https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Montageanleitung.p
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Bedienungsanleitung.pdf
 
 ---
+### Flash Anleitung
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Flash%20ESP32%20S3/Anleitung%20Display%20Flashen%20V2.3.md
+
+---
 English Version here
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
