@@ -307,6 +307,11 @@ https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Parts%20List/St%C3%BCcklis
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Montageanleitung.pdf
 
 ---
+### Bedienungsanleitung
+
+https://github.com/paulchen67/AMS_SpoolEdit/blob/main/Manuals/Bedienungsanleitung.pdf
+
+---
 English Version here
 
 https://github.com/paulchen67/AMS_SpoolEdit/blob/main/README_ENG.md
