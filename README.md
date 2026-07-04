@@ -210,13 +210,13 @@ Gespeicherte Daten
 
 Beim Lesen eines NFC-Tags werden die Zeitstempel verglichen.
 
-NFC ist neuer
+NFC ist neuer => 
 Die Daten werden in das Display importiert.
 
-Display ist neuer
+Display ist neuer => 
 Der NFC-Tag wird automatisch aktualisiert.
 
-Beide identisch
+Beide identisch => 
 Es erfolgt keine Änderung.
 
 Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar verschiedenen Nutzern synchronisiert werden.
