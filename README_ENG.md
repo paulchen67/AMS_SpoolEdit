@@ -228,6 +228,12 @@ No action is taken.
 
 This makes it easy to synchronize filament spools between multiple printers or even different users.
 
+### 🛠️ NFC TAG
+
+ - NTAG 215 504 Bytes
+
+https://amzn.eu/d/0gqHdcFj
+
 ---
  
 # Languages
