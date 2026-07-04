@@ -221,6 +221,8 @@ Es erfolgt keine Änderung.
 
 Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar verschiedenen Nutzern synchronisiert werden.
 
+NFC Tags können von Smartphone Apps wie NFC Tools problemlos gelesen werden.
+
 ### 🛠️ NFC TAG
 
  - NTAG 215 504 Bytes
