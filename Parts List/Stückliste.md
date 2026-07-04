@@ -65,3 +65,12 @@ Folgende Komponenten werden benötigt:
 
 
  - M3 x 4 x 4.2 (4 Stück)
+
+
+ ### 🛠️ NFC TAG
+
+ - NTAG 215 504 Bytes
+
+   https://amzn.eu/d/0gqHdcFj
+   
+
