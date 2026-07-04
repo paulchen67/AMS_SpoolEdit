@@ -228,7 +228,7 @@ No action is taken.
 
 This makes it easy to synchronize filament spools between multiple printers or even different users.
 
-NFC Tag can read with Apps like NFC Tools
+NFC Tag can easy read with Apps like NFC Tools
 
 ### 🛠️ NFC TAG
 
