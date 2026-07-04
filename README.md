@@ -221,6 +221,12 @@ Es erfolgt keine Änderung.
 
 Dadurch können Spulen problemlos zwischen mehreren Druckern oder sogar verschiedenen Nutzern synchronisiert werden.
 
+### 🛠️ NFC TAG
+
+ - NTAG 215 504 Bytes
+
+https://amzn.eu/d/0gqHdcFj
+
 ---
  
 # Sprache
